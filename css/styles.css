@@ -51,6 +51,7 @@ p {
   }
 
   .benefits-item {
+    width: unset;
     width: calc((100% - 24px) / 2);
   }
 }
@@ -67,9 +68,11 @@ p {
     padding-bottom: 120px;
   }
   .benefits-list {
+    flex-wrap: nowrap;
     gap: 24px;
   }
   .benefits-item {
+    width: unset;
     width: calc((100% - 72px) / 4);
   }
   .benefits-icon {
